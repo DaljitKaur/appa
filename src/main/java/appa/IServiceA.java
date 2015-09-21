@@ -8,7 +8,6 @@ import javax.jws.soap.SOAPBinding.Use;;
 @Local
 @WebService(targetNamespace="http://appa/ServiceA")
 @SOAPBinding(style=javax.jws.soap.SOAPBinding.Style.RPC, use=Use.LITERAL, parameterStyle=ParameterStyle.WRAPPED)
-
 public interface IServiceA {
 	int plus(int left, int right);
 }
